@@ -1,7 +1,7 @@
 '''
 Women's 2025 NCAA Swimming Psych Sheets
 Author: Orly Olbum
-Date: April 2, 2025
+Start Date: April 2, 2025
 Goal: Initial EDA for 2025 ncaa swimming psych sheets
 '''
 
@@ -10,5 +10,41 @@ import pandas as pd
 
 # data load
 wncaa = pd.read_csv('ncaa25_psychsheets.csv')
-print(wncaa.head())
+# print(wncaa.head())
 
+'''
+intro stats!
+what is up with this dataset!
+i love swimming!
+
+level 1: easy summaries, easy questions
+'''
+
+# how many swimmers were there
+
+
+# top 5 swimmers buy number of events
+
+
+# how many schools were represented
+
+
+# top 5 schools by number of swimmers
+
+
+# 
+
+
+
+'''
+level 2: cross-sections of the data needed to answer slightly more complicated questions
+'''
+
+
+
+
+'''
+level 3: EARTH-SHATTERING STATS
+
+jk but some more complicated wizardry will be required to answer these ones
+'''
