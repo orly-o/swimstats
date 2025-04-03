@@ -10,6 +10,9 @@ import pandas as pd
 
 # data load
 wncaa = pd.read_csv('ncaa25_psychsheets.csv')
+# print(wncaa.columns)
+# we have first and last name, let's make one more field for both so we can count the swimmers
+wncaa['Full Name'] = wncaa['First'] + ' ' + wncaa['Last']
 # print(wncaa.head())
 
 '''
@@ -21,18 +24,21 @@ level 1: easy summaries, easy questions
 '''
 
 # how many swimmers were there
-
-
-# top 5 swimmers buy number of events
-
+swimmers = wncaa['Full Name'].unique()
+# print(len(swimmers))
 
 # how many schools were represented
-
+teams = wncaa['Team'].unique()
+# print(len(teams))
 
 # top 5 schools by number of swimmers
 
 
 # 
+
+
+# top 5 swimmers buy number of events
+
 
 
 
