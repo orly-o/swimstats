@@ -11,13 +11,14 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ```{r libraries}
-
+library(dplyr)
 ```
 
 ```{r data load}
-
-
+# setwd("/Users/orly/Documents/GitHub/swimstats")
+wncaa = read.csv("NCAA 25 Psych Sheets.csv")
 ```
+
 
 
 
