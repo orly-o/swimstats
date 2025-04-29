@@ -6,6 +6,13 @@ __pycache__/
 # C extensions
 *.so
 
+# R extensions
+*.RData
+*.Rhistory
+
+# Mac
+*.DS_Store
+
 # Distribution / packaging
 .Python
 build/
